@@ -4,7 +4,7 @@ body {
 ul{
     border: 3px solid lightcoral;
     width: 90px;
-    height: 370px;
+    height: 400px;
     padding: 0;
     margin-top: 30px;
 }
@@ -23,7 +23,7 @@ img {
 }
 #wrapper {
     width: 80px;
-    height: 80px;
+    height: 90px;
 }
 #wrapper .text {
     position: relative;
@@ -33,6 +33,9 @@ img {
     padding: 35px 50px 47px 0;
     margin: 0;
     border: 3px solid lightcoral;
+}
+#wrapper:hover {
+    background-color: rgb(255, 187, 0);
 }
 #wrapper:hover .text {
     transition: 2s;
