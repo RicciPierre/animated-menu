@@ -1,0 +1,44 @@
+body {
+    background-color: teal;
+}
+ul{
+    border: 3px solid lightcoral;
+    width: 90px;
+    height: 370px;
+    padding: 0;
+    margin-top: 30px;
+}
+li {
+    text-align: left;
+    list-style-type: none;
+    padding: 10px 10px 0 2px;
+}
+img {
+    width: 80px;
+    height: 80px;
+}
+.text {
+    max-width: 80px;
+    max-width: 80px;
+}
+#wrapper {
+    width: 80px;
+    height: 80px;
+}
+#wrapper .text {
+    position: relative;
+    bottom: 97px;
+    left: 0;
+    visibility: hidden;
+    padding: 35px 50px 47px 0;
+    margin: 0;
+    border: 3px solid lightcoral;
+}
+#wrapper:hover .text {
+    transition: 2s;
+    visibility:visible;
+    transform: translateX(90px);
+    background-color: rgb(255, 187, 0);
+    color: teal;
+}
+
