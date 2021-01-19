@@ -9,7 +9,7 @@ ul{
     margin-top: 30px;
 }
 li {
-    text-align: left;
+    text-align: center;
     list-style-type: none;
     padding: 10px 10px 0 2px;
 }
@@ -30,7 +30,7 @@ img {
     bottom: 97px;
     left: 0;
     visibility: hidden;
-    padding: 35px 50px 47px 0;
+    padding: 35px 50px 47px 10px;
     margin: 0;
     border: 3px solid lightcoral;
 }
